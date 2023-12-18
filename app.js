@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env || 3005
+const port =3005
 
 app.use(express.static('someotherthing'))
 //optional character so it can be color or colour
